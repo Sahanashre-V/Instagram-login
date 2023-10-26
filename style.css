@@ -1,0 +1,121 @@
+.body{
+    font-family: system-ui;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+}
+.child1{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 15px;
+}
+.phone{
+    display: flex;
+    height:570px;
+    width:400px;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    color:#385185;
+    gap:6px;
+}
+.or-text{
+    display:flex;
+    justify-content: space-around;
+    margin-top:20px;
+}
+.horizontal{
+    width: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.insta{
+    border: 1px solid rgb(219,219,219);
+    width:fit-content;
+    padding:30px;
+    padding-bottom:25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.img{
+    width: 160px;
+    height: 70px;
+}
+.form1{
+    margin-top: 10px;
+    width:225px;
+    height:30px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding-left: 5px;
+    border:none;
+    padding:5px;
+    border:1px solid rgb(219,219,219)
+}
+.button1{
+    background-color: #4CB5F9;
+    margin-top: 10px;
+    width:235px;
+    height:35px;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    padding:5px;
+}
+.facebook{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.forgot{
+    margin-top:20px;
+    font-size: 14px;
+    padding-left: 60px;
+}
+.signup{
+    display:flex;
+    border:1px solid rgb(219,219,219);
+    width:fit-content;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 68px;
+    gap:5px;
+    padding-bottom:3px;
+    padding-top:3px;
+}
+.up{
+    color:#4cb5f9;
+}
+.app{
+    margin-top:20px;
+    padding-inline: 120px;
+}
+.imgs{
+    display:flex;
+    gap:10px;
+    margin-top: 20px;
+    align-items:center;
+    padding-left: 40px;
+}
+.img1{
+    height:40px;
+}
+.img2{
+    height:38px;
+}
+.footer{
+    font-size: 14px;
+    padding-left: 310px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 390px;
+    color:#737373;
+    margin-top:30px;
+}
